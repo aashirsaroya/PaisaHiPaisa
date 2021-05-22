@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="870f4f4c-be66-4ffe-ae66-508b3211f430" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/expense_tracker/lib/widgets/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/expense_tracker/lib/widgets/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/lib/widgets/new_transaction.dart" beforeDir="false" afterPath="$PROJECT_DIR$/expense_tracker/lib/widgets/new_transaction.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/lib/widgets/transaction_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/expense_tracker/lib/widgets/transaction_list.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1stRh7HsAXTiV5Za5TfkW4qxZCU" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="flutter" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/expense_tracker/lib/widgets/main.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JarApplication">
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="870f4f4c-be66-4ffe-ae66-508b3211f430" name="Default Changelist" comment="" />
+      <created>1621690020636</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621690020636</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="211" width="1084" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621690817629">
+      <screen x="88" y="27" width="1832" height="1053" />
+    </state>
+    <state x="462" y="211" width="1084" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog/88.27.1832.1053@88.27.1832.1053" timestamp="1621690817629" />
+    <state x="736" y="384" width="525" height="423" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1621690814133">
+      <screen x="88" y="27" width="1832" height="1053" />
+    </state>
+    <state x="736" y="384" width="525" height="423" key="#com.intellij.ide.util.TreeFileChooserDialog/88.27.1832.1053@88.27.1832.1053" timestamp="1621690814133" />
+    <state width="1786" height="275" key="GridCell.Tab.0.bottom" timestamp="1621698062865">
+      <screen x="88" y="27" width="1832" height="1053" />
+    </state>
+    <state width="1786" height="275" key="GridCell.Tab.0.bottom/88.27.1832.1053@88.27.1832.1053" timestamp="1621698062865" />
+    <state width="1786" height="275" key="GridCell.Tab.0.center" timestamp="1621698062864">
+      <screen x="88" y="27" width="1832" height="1053" />
+    </state>
+    <state width="1786" height="275" key="GridCell.Tab.0.center/88.27.1832.1053@88.27.1832.1053" timestamp="1621698062864" />
+    <state width="1786" height="275" key="GridCell.Tab.0.left" timestamp="1621698062864">
+      <screen x="88" y="27" width="1832" height="1053" />
+    </state>
+    <state width="1786" height="275" key="GridCell.Tab.0.left/88.27.1832.1053@88.27.1832.1053" timestamp="1621698062864" />
+    <state width="1786" height="275" key="GridCell.Tab.0.right" timestamp="1621698062865">
+      <screen x="88" y="27" width="1832" height="1053" />
+    </state>
+    <state width="1786" height="275" key="GridCell.Tab.0.right/88.27.1832.1053@88.27.1832.1053" timestamp="1621698062865" />
+    <state x="493" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1621690509288">
+      <screen x="88" y="27" width="1832" height="1053" />
+    </state>
+    <state x="493" y="188" width="1022" height="737" key="SettingsEditor/88.27.1832.1053@88.27.1832.1053" timestamp="1621690509288" />
+  </component>
+</project>

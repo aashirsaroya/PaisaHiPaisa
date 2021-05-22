@@ -44,8 +44,23 @@ class _NewTransactionState extends State<NewTransaction> {
     showDatePicker(
         context: context,
         initialDate: DateTime.now(),
-        firstDate: DateTime(2020),
+        firstDate: DateTime(2015),
         lastDate: DateTime.now(),
+        helpText: 'Select date of transaction',
+        confirmText: 'Confirm',
+      builder: (BuildContext context,Widget child){
+          return Theme(
+            data: ThemeData.light().copyWith(
+              primaryColor: Color(0xff2d4059),
+              accentColor: Color(0xffffb400),
+              colorScheme: ColorScheme.light(primary: const Color(0xff2d4059)),
+              buttonTheme: ButtonThemeData(
+                  textTheme: ButtonTextTheme.primary
+              ),
+            ),
+            child: child,
+          );
+      }
     ).then(
             (pickedDate){
               if(pickedDate == null)
@@ -90,7 +105,7 @@ class _NewTransactionState extends State<NewTransaction> {
                       child: Text(
                           _selectedDate == null ?'No Date Chosen!' : 'Picked Date: ' + DateFormat.yMMMd().format(_selectedDate))) ,
                   FlatButton(
-                    textColor: Theme.of(context).primaryColor,
+                    textColor: Theme.of(context).errorColor,
                     child: Text('Choose Date',
                     style: TextStyle(
                       fontWeight: FontWeight.bold
@@ -104,7 +119,7 @@ class _NewTransactionState extends State<NewTransaction> {
               ),
             ),
             FlatButton(
-              color: Theme.of(context).primaryColor,
+              color: Theme.of(context).errorColor,
               child: Text('Add Transaction',
               style: TextStyle(
                 fontWeight: FontWeight.bold

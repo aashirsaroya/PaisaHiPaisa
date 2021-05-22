@@ -12,8 +12,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-          primaryColor: Colors.red,
-          accentColor: Colors.amber,
+          //primaryColor
+          errorColor: Color(0xff2d4059),
+          primaryColor: Color(0xff2d4059),
+          accentColor: Color(0xffffb400),
           fontFamily: 'Quicksand',
           textTheme: ThemeData.light().textTheme.copyWith(title: TextStyle(
             fontFamily: 'Open Sans',
@@ -90,7 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-         title: Text('Paisa Hi Paisa',
+         title: Text('Money Manager',
          style: TextStyle(
            fontFamily: 'Open Sans',
            fontSize: 20

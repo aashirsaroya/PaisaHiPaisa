@@ -30,13 +30,19 @@ class TransactionList extends StatelessWidget {
             margin: EdgeInsets.symmetric(vertical: 8,horizontal: 5),
             child: ListTile(
               leading: CircleAvatar(radius: 30,
+                backgroundColor: Theme.of(context).errorColor,
+                foregroundColor: Theme.of(context).accentColor,
                 child: Padding(
-                    padding: EdgeInsets.all(6),
-                    child: FittedBox(child: Text('\u{20B9}' + transactions[index].amount.toString()))),
+                    padding: EdgeInsets.all(7),
+                    child: FittedBox(child: Text('\u{20B9}' + transactions[index].amount.toString(),
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
+                    ))),
               ),
               title: Text(transactions[index].title,
                 style: TextStyle(
-                  color: Theme.of(context).primaryColor,
+                  color: Theme.of(context).errorColor,
                   fontWeight: FontWeight.bold
                 ),
               ),
@@ -46,7 +52,7 @@ class TransactionList extends StatelessWidget {
               ),
               trailing: IconButton(
                 icon: Icon(Icons.delete),
-                color: Theme.of(context).errorColor,// It is red by default can set if wanted
+                color: Color(0xffea5455),// It is red by default can set if wanted
                 onPressed: (){
                        deleteTx(transactions[index].id);
                 },
